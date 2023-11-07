@@ -59,7 +59,7 @@ class Park {
        let info = this.carmer.shot(car);
        //停到某个车位
        let i = parseInt(Math.random() * 100 % 100);
-       const place = this.floors[0].places(i);
+       const place = this.floors[0].places[i];
        place.in();
        info.place = place;
         // 记录信息
@@ -79,7 +79,7 @@ class Park {
     emptyNumber(){
 
         return this.floors.map(item => {
-            return `${item.index} 层还有${item.emptyPlaceNumber}空余车位`
+            return `${item.index} 层还有${item.emptyPlaceNumber()}空余车位`
         }).join("\n")
     }
 }
@@ -100,4 +100,9 @@ const car1 = new Car(100)
 const car2 = new Car(200)
 const car3 = new Car(300)
 
+console.log("第一辆车进入")
+console.log(park.emptyNumber());
 park.in(car1);
+console.log("第二辆车进入");
+console.log(park.emptyNumber());
+park.in(car2);
