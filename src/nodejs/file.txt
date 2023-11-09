@@ -1,0 +1,1074 @@
+export declare const FormatMessagePlaceholder = "NamePlaceholderDoNotTranslate";
+export declare const HeaderLocalizationFormatMessages: {
+    AzureAI: {
+        id: string;
+        defaultMessage: string;
+    };
+    CognitiveServices: {
+        id: string;
+        defaultMessage: string;
+    };
+    SignIn: {
+        id: string;
+        defaultMessage: string;
+    };
+    SkipToContent: {
+        id: string;
+        defaultMessage: string;
+    };
+    InboxActions: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const SpinnersLocalizationFormatMessages: {
+    Loading: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const ThemedIconsLocalizationFormatMessages: {
+    Success: {
+        id: string;
+        defaultMessage: string;
+    };
+    Failed: {
+        id: string;
+        defaultMessage: string;
+    };
+    Expired: {
+        id: string;
+        defaultMessage: string;
+    };
+    Processing: {
+        id: string;
+        defaultMessage: string;
+    };
+    Cancelled: {
+        id: string;
+        defaultMessage: string;
+    };
+    Paused: {
+        id: string;
+        defaultMessage: string;
+    };
+    Suspended: {
+        id: string;
+        defaultMessage: string;
+    };
+    Recent: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const BreadcrumbLocalizationFormatMessages: {
+    Breadcrumb: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const FilterableComboBoxFormatMessages: {
+    All: {
+        id: string;
+        defaultMessage: string;
+    };
+    IconButtonArialabel: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const DetailsListLocalizedFormatMessages: {
+    CommonCustomShimmeredDetailsListSortedByInDesc: {
+        id: string;
+        defaultMessage: string;
+    };
+    CommonCustomShimmeredDetailsListSortedByInAsc: {
+        id: string;
+        defaultMessage: string;
+    };
+    CountSelected: {
+        id: string;
+        defaultMessage: string;
+    };
+    ToggleSelectionForAllItems: {
+        id: string;
+        defaultMessage: string;
+    };
+    ToggleSelection: {
+        id: string;
+        defaultMessage: string;
+    };
+    SelectRow: {
+        id: string;
+        defaultMessage: string;
+    };
+    ResizeColumn: {
+        id: string;
+        defaultMessage: string;
+    };
+    Resize: {
+        id: string;
+        defaultMessage: string;
+    };
+    TableNotSorted: {
+        id: string;
+        defaultMessage: string;
+    };
+    Sort: {
+        id: string;
+        defaultMessage: string;
+    };
+    Cancel: {
+        id: string;
+        defaultMessage: string;
+    };
+    EnterDesiredWidth: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const ButtonLocalizationFormatMessages: {
+    More: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const HatsLocalizationFormatMessages: {
+    OpenInANewWindow: {
+        id: string;
+        defaultMessage: string;
+    };
+    Close: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const BannerLocalizationFormatMessages: {
+    NotAtAll: {
+        id: string;
+        defaultMessage: string;
+    };
+    ExtremelyLikely: {
+        id: string;
+        defaultMessage: string;
+    };
+    Submit: {
+        id: string;
+        defaultMessage: string;
+    };
+    Close: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const HelpLocalizationFormatMessages: {
+    Close: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const LeftNavLocalizationFormatMessages: {
+    CollapseNavigation: {
+        id: string;
+        defaultMessage: string;
+    };
+    ExpandNavigation: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const NotificationLocalizationFormatMessages: {
+    PanelClose: {
+        id: string;
+        defaultMessage: string;
+    };
+    Close: {
+        id: string;
+        defaultMessage: string;
+    };
+    DismissAll: {
+        id: string;
+        defaultMessage: string;
+    };
+    Messages: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const ProfileCardLocalizationFormatMessages: {
+    Labelledby: {
+        id: string;
+        defaultMessage: string;
+    };
+    SignOut: {
+        id: string;
+        defaultMessage: string;
+    };
+    ViewAccount: {
+        id: string;
+        defaultMessage: string;
+    };
+    CurrentDirectory: {
+        id: string;
+        defaultMessage: string;
+    };
+    SwitchDirectories: {
+        id: string;
+        defaultMessage: string;
+    };
+    SwitchDirectory: {
+        id: string;
+        defaultMessage: string;
+    };
+    CurrentSubscription: {
+        id: string;
+        defaultMessage: string;
+    };
+    CurrentResource: {
+        id: string;
+        defaultMessage: string;
+    };
+    CurrentRole: {
+        id: string;
+        defaultMessage: string;
+    };
+    CurrentRoleLearnMore: {
+        id: string;
+        defaultMessage: string;
+    };
+    LearnMore: {
+        id: string;
+        defaultMessage: string;
+    };
+    SwitchResource: {
+        id: string;
+        defaultMessage: string;
+    };
+    PlaceHolder: {
+        id: string;
+        defaultMessage: string;
+    };
+    Switch: {
+        id: string;
+        defaultMessage: string;
+    };
+    Select: {
+        id: string;
+        defaultMessage: string;
+    };
+    SignInWithADifferentAccount: {
+        id: string;
+        defaultMessage: string;
+    };
+    SwitchResources: {
+        id: string;
+        defaultMessage: string;
+    };
+    SwitchSubscription: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const AzureLocationMessages: any;
+export declare const FaviconLocalizationFormatMessages: {
+    Message: {
+        id: string;
+        defaultMessage: string;
+    };
+    PullRequest: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const PrivacyLinkLocalizationFormatMessages: {
+    PrivacyCookies: {
+        id: string;
+        defaultMessage: string;
+    };
+    Imprint: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const ResourceLocalizationFormatMessages: {
+    LearnMoreAboutCreatingResourcesDesc: {
+        id: string;
+        defaultMessage: string;
+    };
+    LearnMoreAboutCreatingResourcesInAzure: {
+        id: string;
+        defaultMessage: string;
+    };
+    CurrentResource: {
+        id: string;
+        defaultMessage: string;
+    };
+    CurrentSubscription: {
+        id: string;
+        defaultMessage: string;
+    };
+    CurrentRoleAssignments: {
+        id: string;
+        defaultMessage: string;
+    };
+    ViewLevelOfAccessForThisResource: {
+        id: string;
+        defaultMessage: string;
+    };
+    AllResources: {
+        id: string;
+        defaultMessage: string;
+    };
+    SelectNow: {
+        id: string;
+        defaultMessage: string;
+    };
+    ToggleSelectionForAllItems: {
+        id: string;
+        defaultMessage: string;
+    };
+    Search: {
+        id: string;
+        defaultMessage: string;
+    };
+    CreateAzureResource: {
+        id: string;
+        defaultMessage: string;
+    };
+    ColumnOptions: {
+        id: string;
+        defaultMessage: string;
+    };
+    ResourceName: {
+        id: string;
+        defaultMessage: string;
+    };
+    AzureSubscription: {
+        id: string;
+        defaultMessage: string;
+    };
+    Region: {
+        id: string;
+        defaultMessage: string;
+    };
+    PricingTier: {
+        id: string;
+        defaultMessage: string;
+    };
+    Plan: {
+        id: string;
+        defaultMessage: string;
+    };
+    Standard: {
+        id: string;
+        defaultMessage: string;
+    };
+    Free: {
+        id: string;
+        defaultMessage: string;
+    };
+    Endpoint: {
+        id: string;
+        defaultMessage: string;
+    };
+    Key: {
+        id: string;
+        defaultMessage: string;
+    };
+    ShowKey: {
+        id: string;
+        defaultMessage: string;
+    };
+    HideKey: {
+        id: string;
+        defaultMessage: string;
+    };
+    Copy: {
+        id: string;
+        defaultMessage: string;
+    };
+    UseResource: {
+        id: string;
+        defaultMessage: string;
+    };
+    ViewAllPropertiesInAzurePortal: {
+        id: string;
+        defaultMessage: string;
+    };
+    CustomRole: {
+        id: string;
+        defaultMessage: string;
+    };
+    Copied: {
+        id: string;
+        defaultMessage: string;
+    };
+    Refresh: {
+        id: string;
+        defaultMessage: string;
+    };
+    TooltipMessage: {
+        id: string;
+        defaultMessage: string;
+    };
+    HintButton: {
+        id: string;
+        defaultMessage: string;
+    };
+    ToggleFavoriteResource: {
+        id: string;
+        defaultMessage: string;
+    };
+    FavoriteSelected: {
+        id: string;
+        defaultMessage: string;
+    };
+    FavoriteUnselected: {
+        id: string;
+        defaultMessage: string;
+    };
+    AddToFavorites: {
+        id: string;
+        defaultMessage: string;
+    };
+    RemoveFromFavorites: {
+        id: string;
+        defaultMessage: string;
+    };
+    Favorites: {
+        id: string;
+        defaultMessage: string;
+    };
+    JSONView: {
+        id: string;
+        defaultMessage: string;
+    };
+    NoResourcesFound: {
+        id: string;
+        defaultMessage: string;
+    };
+    NoResourceInDirectory: {
+        id: string;
+        defaultMessage: string;
+    };
+    NoResourceInSelectedDirectory: {
+        id: string;
+        defaultMessage: string;
+    };
+    SwitchDirectory: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const TabLocalizationFormatMessages: {
+    Directory: {
+        id: string;
+        defaultMessage: string;
+    };
+    General: {
+        id: string;
+        defaultMessage: string;
+    };
+    Resource: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const ColumnSelectorLocalizationFormatMessages: {
+    Content: {
+        id: string;
+        defaultMessage: string;
+    };
+    EditColumns: {
+        id: string;
+        defaultMessage: string;
+    };
+    Save: {
+        id: string;
+        defaultMessage: string;
+    };
+    Cancel: {
+        id: string;
+        defaultMessage: string;
+    };
+    Close: {
+        id: string;
+        defaultMessage: string;
+    };
+    MoveUp: {
+        id: string;
+        defaultMessage: string;
+    };
+    MoveDown: {
+        id: string;
+        defaultMessage: string;
+    };
+    SearchColumnsUpdate: {
+        id: string;
+        defaultMessage: string;
+    };
+    MoveUpColumnsUpdate: {
+        id: string;
+        defaultMessage: string;
+    };
+    MoveDownColumnsUpdate: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const CardLocalizationFormatMessages: {
+    ExpandCardLink: {
+        id: string;
+        defaultMessage: string;
+    };
+    CollapseCardLink: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const DirectoryLocalizationFormatMessages: {
+    SwitchDirectoryPrompt: {
+        id: string;
+        defaultMessage: string;
+    };
+    LearnMoreAboutAzureDirectories: {
+        id: string;
+        defaultMessage: string;
+    };
+    CurrentDirectory: {
+        id: string;
+        defaultMessage: string;
+    };
+    AllDirectories: {
+        id: string;
+        defaultMessage: string;
+    };
+    SelectRow: {
+        id: string;
+        defaultMessage: string;
+    };
+    ToggleSelectionForAllItems: {
+        id: string;
+        defaultMessage: string;
+    };
+    Search: {
+        id: string;
+        defaultMessage: string;
+    };
+    DirectoryName: {
+        id: string;
+        defaultMessage: string;
+    };
+    Domain: {
+        id: string;
+        defaultMessage: string;
+    };
+    DirectoryID: {
+        id: string;
+        defaultMessage: string;
+    };
+    SwitchDirectory: {
+        id: string;
+        defaultMessage: string;
+    };
+    ViewAllPropertiesInAzurePortal: {
+        id: string;
+        defaultMessage: string;
+    };
+    NoDataFound: {
+        id: string;
+        defaultMessage: string;
+    };
+    NoDirectoryDescription: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const UploadFileDialogFormatMessages: {
+    FileLocation: {
+        id: string;
+        defaultMessage: string;
+    };
+    UploadData: {
+        id: string;
+        defaultMessage: string;
+    };
+    UploadFile: {
+        id: string;
+        defaultMessage: string;
+    };
+    Cancel: {
+        id: string;
+        defaultMessage: string;
+    };
+    LocalFile: {
+        id: string;
+        defaultMessage: string;
+    };
+    DragAndDrop: {
+        id: string;
+        defaultMessage: string;
+    };
+    BrowseForFiles: {
+        id: string;
+        defaultMessage: string;
+    };
+    YourDataFormatIsInvalidPleaseArchiveCorrectFile: {
+        id: string;
+        defaultMessage: string;
+    };
+    SelectedFileForUpload: {
+        id: string;
+        defaultMessage: string;
+    };
+    YourDataIsOversizedPleaseDivideAndUpload: {
+        id: string;
+        defaultMessage: string;
+    };
+    EmptyFilePleaseCheckYourData: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const PanelSelectorLocalizationFormatMessages: {
+    MoveUp: {
+        id: string;
+        defaultMessage: string;
+    };
+    MoveDown: {
+        id: string;
+        defaultMessage: string;
+    };
+    MoveUpColumnsUpdate: {
+        id: string;
+        defaultMessage: string;
+    };
+    MoveDownColumnsUpdate: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const CreateResourceWizardMessages: {
+    SelectDirectoryStepDescription1: {
+        id: string;
+        defaultMessage: string;
+    };
+    SelectDirectoryStepDescription2: {
+        id: string;
+        defaultMessage: string;
+    };
+    LearnMore: {
+        id: string;
+        defaultMessage: string;
+    };
+    SelectDirectoryStepSelectorTitle: {
+        id: string;
+        defaultMessage: string;
+    };
+    TrustRelationship: {
+        id: string;
+        defaultMessage: string;
+    };
+    SelectSubscription: {
+        id: string;
+        defaultMessage: string;
+    };
+    SelectGroup: {
+        id: string;
+        defaultMessage: string;
+    };
+    SelectLocation: {
+        id: string;
+        defaultMessage: string;
+    };
+    SelectTier: {
+        id: string;
+        defaultMessage: string;
+    };
+    AzureSubscription: {
+        id: string;
+        defaultMessage: string;
+    };
+    AzureResourceGroup: {
+        id: string;
+        defaultMessage: string;
+    };
+    Location: {
+        id: string;
+        defaultMessage: string;
+    };
+    PricingTier: {
+        id: string;
+        defaultMessage: string;
+    };
+    NameYourResource: {
+        id: string;
+        defaultMessage: string;
+    };
+    ResourceNameInputTitle: {
+        id: string;
+        defaultMessage: string;
+    };
+    ResourceNameInputTip: {
+        id: string;
+        defaultMessage: string;
+    };
+    LocationSelectorTip: {
+        id: string;
+        defaultMessage: string;
+    };
+    PricingTierSelectorTip: {
+        id: string;
+        defaultMessage: string;
+    };
+    AzureDirectory: {
+        id: string;
+        defaultMessage: string;
+    };
+    Subscription: {
+        id: string;
+        defaultMessage: string;
+    };
+    Resource: {
+        id: string;
+        defaultMessage: string;
+    };
+    AdvancedOptions: {
+        id: string;
+        defaultMessage: string;
+    };
+    SummaryStepOptionsDescriptionPortal: {
+        id: string;
+        defaultMessage: string;
+    };
+    AzurePortal: {
+        id: string;
+        defaultMessage: string;
+    };
+    SummaryStepOptionsDescriptionOption1: {
+        id: string;
+        defaultMessage: string;
+    };
+    SystemAssignedManagedIdentity: {
+        id: string;
+        defaultMessage: string;
+    };
+    StoreEncryption: {
+        id: string;
+        defaultMessage: string;
+    };
+    SummaryStepOptionsDescriptionOption4: {
+        id: string;
+        defaultMessage: string;
+    };
+    LearnMoreAboutAdvancedOptions: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const LeftNavCustomLocalizationFormatMessages: {
+    ExpandCollapsed: {
+        id: string;
+        defaultMessage: string;
+    };
+    OpenAI: {
+        id: string;
+        defaultMessage: string;
+    };
+    GPT3: {
+        id: string;
+        defaultMessage: string;
+    };
+    Dalle: {
+        id: string;
+        defaultMessage: string;
+    };
+    Playground: {
+        id: string;
+        defaultMessage: string;
+    };
+    Management: {
+        id: string;
+        defaultMessage: string;
+    };
+    Deployments: {
+        id: string;
+        defaultMessage: string;
+    };
+    Models: {
+        id: string;
+        defaultMessage: string;
+    };
+    FileManagement: {
+        id: string;
+        defaultMessage: string;
+    };
+    ChatGPT: {
+        id: string;
+        defaultMessage: string;
+    };
+    ExpandCollapse: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const CodeViewGuidanceLocalizationFormatMessages: {
+    GuidMessage: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const NonSignedInCardLocalizationFormatMessages: {
+    DontHaveAzureAccount: {
+        id: string;
+        defaultMessage: string;
+    };
+    CreateOneLink: {
+        id: string;
+        defaultMessage: string;
+    };
+    or: {
+        id: string;
+        defaultMessage: string;
+    };
+    howToCreateAccountLink: {
+        id: string;
+        defaultMessage: string;
+    };
+    SignUpAndGetFreeAzureCredit: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const ErrorPageLocalizationFormatMessages: {
+    DescriptionVisit: {
+        id: string;
+        defaultMessage: string;
+    };
+    DescriptionOrStep: {
+        id: string;
+        defaultMessage: string;
+    };
+    DescriptionHomePage: {
+        id: string;
+        defaultMessage: string;
+    };
+    Title404: {
+        id: string;
+        defaultMessage: string;
+    };
+    Title403: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const TagPickerLocalizationFormatMessages: {
+    Apply: {
+        id: string;
+        defaultMessage: string;
+    };
+    Cancel: {
+        id: string;
+        defaultMessage: string;
+    };
+    AddFilter: {
+        id: string;
+        defaultMessage: string;
+    };
+    SelectFilter: {
+        id: string;
+        defaultMessage: string;
+    };
+    Filter: {
+        id: string;
+        defaultMessage: string;
+    };
+    SelectValue: {
+        id: string;
+        defaultMessage: string;
+    };
+    Value: {
+        id: string;
+        defaultMessage: string;
+    };
+    Search: {
+        id: string;
+        defaultMessage: string;
+    };
+    Delete: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const DateTimePickerLocalizationFormatMessages: {
+    StartTimeFormatError: {
+        id: string;
+        defaultMessage: string;
+    };
+    EndTimeFormatError: {
+        id: string;
+        defaultMessage: string;
+    };
+    StartDateTimeError: {
+        id: string;
+        defaultMessage: string;
+    };
+    DefineOrEdit: {
+        id: string;
+        defaultMessage: string;
+    };
+    TimeRange: {
+        id: string;
+        defaultMessage: string;
+    };
+    Starttime: {
+        id: string;
+        defaultMessage: string;
+    };
+    Endtime: {
+        id: string;
+        defaultMessage: string;
+    };
+    Save: {
+        id: string;
+        defaultMessage: string;
+    };
+    Cancel: {
+        id: string;
+        defaultMessage: string;
+    };
+    StartTime: {
+        id: string;
+        defaultMessage: string;
+    };
+    EndTime: {
+        id: string;
+        defaultMessage: string;
+    };
+    Edit: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const HeaderLinksMenuListItemsName: {
+    SpeechStudio: {
+        id: string;
+        defaultMessage: string;
+    };
+    LanguageStudio: {
+        id: string;
+        defaultMessage: string;
+    };
+    CustomTranslator: {
+        id: string;
+        defaultMessage: string;
+    };
+    VisionStudio: {
+        id: string;
+        defaultMessage: string;
+    };
+    FormRecognizer: {
+        id: string;
+        defaultMessage: string;
+    };
+    ContentSafety: {
+        id: string;
+        defaultMessage: string;
+    };
+    AzureAIStudio: {
+        id: string;
+        defaultMessage: string;
+    };
+    AzureMachineLearning: {
+        id: string;
+        defaultMessage: string;
+    };
+    LinkToOtherStudios: {
+        id: string;
+        defaultMessage: string;
+    };
+    ComingSoon: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const FilterBarDropdownLocalizationFormatMessages: {
+    Search: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const JsonViewLocalizationFormatMessages: {
+    Close: {
+        id: string;
+        defaultMessage: string;
+    };
+    ResourceJSON: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const WizardFlowLocalizationFormatMessages: {
+    Close: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const WizardDialogLocalizationFormatMessages: {
+    DoThisLater: {
+        id: string;
+        defaultMessage: string;
+    };
+    Edit: {
+        id: string;
+        defaultMessage: string;
+    };
+    LogInToStudio: {
+        id: string;
+        defaultMessage: string;
+    };
+    CloseAndContinueButton: {
+        id: string;
+        defaultMessage: string;
+    };
+    ChooseResourceButton: {
+        id: string;
+        defaultMessage: string;
+    };
+    Subscription: {
+        id: string;
+        defaultMessage: string;
+    };
+    Resource: {
+        id: string;
+        defaultMessage: string;
+    };
+    Close: {
+        id: string;
+        defaultMessage: string;
+    };
+};
+export declare const PreviewTagMessages: any;
+export declare const PlatformsMessages: any;
+export declare const NewFeaturesPanelLocalizationFormatMessages: {
+    Close: {
+        id: string;
+        defaultMessage: string;
+    };
+    Enabled: {
+        id: string;
+        defaultMessage: string;
+    };
+    Disabled: {
+        id: string;
+        defaultMessage: string;
+    };
+    RequestAccess: {
+        id: string;
+        defaultMessage: string;
+    };
+    NewFeatures: {
+        id: string;
+        defaultMessage: string;
+    };
+};
