@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>迭代器模式</title>
+</head>
+<body>
+    <a href="#">a1</a>
+    <a href="#">a2</a>
+    <a href="#">a3</a>
+    <a href="#">a4</a>
+    <a href="#">a5</a>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        let arr = [1,2,3,4,5];
+     
+        let nodeList = document.getElementsByTagName("a");
+        let $a = $('a');
+
+        // arr.forEach(function (item) {
+        //     console.log(item)
+        // })
+
+        // //遍历nodeList 
+
+        // let len = nodeList.length
+
+        // for (let index = 0; index < len; index++) {
+        //     console.log(nodeList[index])
+        // }
+
+        // $a.each(function(key, value){
+        //     console.log(key, value)
+        // })
+
+        function each(params) {
+            // 生成迭代器
+            let $data = $(params);
+            $data.each(function(key, value){
+                console.log(key, value);
+            })
+        }
+        each(arr)
+        each(nodeList)
+        each($a)
+    </script>
+</body>
+</html>

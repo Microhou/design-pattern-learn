@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Decorator from './DecoratorCom';
+import CustomPromise from './CustomPromise';
 
 
 class Cat {
@@ -68,6 +69,7 @@ function App() {
         </p>
       </div>
       <Decorator/>
+      <CustomPromise />
     </>
   )
 }
