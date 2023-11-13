@@ -10,4 +10,19 @@ export default defineConfig({
       ]
     }
   })],
+  server: {
+    port: 9000,
+    host: true,
+    proxy: {
+      '/api': {
+        target: "http://127.0.0.1:8880",
+        changeOrigin: true,
+        rewrite: (path) => {
+          console.log("path", path);
+          return path.replace(/^\/api/, '/api')
+        },
+        ws: true,
+      }
+    }
+  }
 })
