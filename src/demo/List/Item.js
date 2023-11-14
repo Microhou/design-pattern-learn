@@ -33,7 +33,7 @@ export default class Item {
                     _this.addToCartHandle();
                     updateText();
                 },
-                //从购物删除
+                //从购物车删除
                 onDeleteFromCart: function(){
                     _this.deleteFromCartHandle();
                     updateText();
