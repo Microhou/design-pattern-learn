@@ -4,7 +4,7 @@ const prototype = {
     },
     say: function() {
         console.log('hello')
-    }
+    } 
 }
 
 //基于原型创建 x 

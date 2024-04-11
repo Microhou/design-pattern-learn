@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实现一个全局唯一的Modal弹框</title>
+</head>
+<style>
+    #modal {
+        height: 200px;
+        width: 200px;
+        line-height: 200px;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid black;
+        text-align: center;
+    }
+</style>
+<body>
+    <button id='open'>打开弹框</button>
+	<button id='close'>关闭弹框</button>
+</body>
+<script>
+    // 核心逻辑，这里采用了闭包思路来实现单例模式
+    const Modal = (function () {
+        let modal = null;
+        return function () {
+            if(!modal){
+                modal = document.createElement('div');
+                modal.innerHTML = '我是一个全局唯一的Modal';
+            	modal.id = 'modal';
+            	modal.style.display = 'none';
+            	document.body.appendChild(modal);
+            }
+
+            return modal;
+        }
+    })()
+
+    class Modal2 {
+        static getInstance(){
+            if(!Modal2.instance){
+                Modal2.instance = document.createElement('div');
+                Modal2.instance.innerHTML = '我是一个全局唯一的Modal2';
+                Modal2.instance.id = 'modal';
+                Modal2.instance.style = 'none';
+                document.body.appendChild(Modal2.instance);
+            }
+
+            return Modal2.instance;
+        }
+
+        static open(){
+            Modal2.getInstance().style.display = 'block';
+        }
+
+        static close() {
+            Modal2.getInstance().style.display = 'none';
+        }
+        
+    }
+
+    // 点击打开按钮展示模态框
+    document.getElementById('open').addEventListener("click", function () {
+        // 未点击则不创建modal实例，避免不必要的内存占用;此处不用 new Modal 的形式调用也可以，和 Storage 同理
+        // const modal = new Modal();
+        // modal.style.display = 'block';
+        Modal2.open();
+    });
+     // 点击关闭按钮隐藏模态框
+     document.getElementById('close').addEventListener('click', () => {
+        // const modal = new Modal();
+        // modal.style.display = "none";
+        Modal2.close();
+     })
+     // 通过单例的modal, 我们就能够准确的控制是那个modal 了。
+
+     
+</script>
+</html>
