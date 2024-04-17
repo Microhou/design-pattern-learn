@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+<body>
+    <h1>test</h1>
+</body>
+<script>
+    setInterval(() => {
+        let startTime = performance.now();
+        debugger
+        let endTime = performance.now();
+        // 设置一个阈值，例如100毫秒
+        if(startTime - endTime > 100) {
+            window.location.href = 'about:blank'
+        }
+    }, 100)
+</script>
+</html>
